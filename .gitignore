@@ -1,0 +1,32 @@
+# Build artifacts
+/build/
+/build-*/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+*.o
+*.a
+*.so
+
+# Runtime output
+*.log
+performance_tracker_test.csv
+
+# Local credentials and agent configuration
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+*.pem
+*.key
+
+# Editor and Python caches
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
